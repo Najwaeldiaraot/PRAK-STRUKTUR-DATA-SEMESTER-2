@@ -45,3 +45,24 @@ Job Sheet 6 menjelaskan bahwa stack adalah sebuah kumpulan data dimana data yang
 
 # Job Sheet 7
 Job Sheet 7 menjelaskan tentang antrian (queue) dalam praktikum Struktur Data Teknik Informatika. Antrian adalah sebuah data structure yang berguna pada pemrograman. Antrian menggunakan prinsip FIFO (First-In-First-Out), dimana item yang mendapat giliran pertama adalah item yang pertama keluar. Antrian dapat menggunakan array atau linked list untuk implementasi. Antrian dapat digunakan untuk memecahkan permasalahan pemrograman, misalnya untuk menambah dan menghapus elemen dari antrian. Job Sheet 7 juga menjelaskan tentang queue dengan array dan queue dengan linked list. Pada queue dengan array, digunakan sejumlah array MAX untuk menyimpan data. Untuk queue dengan linked list, digunakan struct node untuk menyimpan data.
+
+# Job Sheet 8
+Job Sheet 8 ini menjelaskan tentang Bubble Sort adalah algoritma pengurutan sederhana yang bekerja dengan membandingkan elemen-elemen bersebelahan dalam daftar dan menukarnya jika mereka dalam urutan yang salah. Proses ini berulang hingga seluruh daftar terurut.Cara Kerja Mulai dari elemen pertama, bandingkan elemen saat ini dengan elemen berikutnya, Jika elemen saat ini lebih besar dari elemen berikutnya, tukar kedua elemen tersebut,Lanjutkan ke pasangan elemen berikutnya dan ulangi langkah 2. Setelah satu iterasi lengkap, elemen terbesar akan "menggelembung" ke posisi akhirnya. Ulangi proses ini untuk sisa elemen hingga tidak ada lagi elemen yang perlu ditukar.
+Insertion Sort adalah algoritma pengurutan yang membangun daftar terurut satu elemen pada satu waktu. Ini bekerja dengan mengiterasi daftar input dan pada setiap iterasi, menempatkan elemen saat ini ke dalam posisi yang benar di sub-daftar terurut. Cara Kerja Mulai dengan elemen kedua, anggap elemen pertama sudah terurut.
+Bandingkan elemen saat ini dengan elemen sebelumnya dalam sub-daftar terurut. Geser elemen-elemen yang lebih besar dari elemen saat ini satu posisi ke kanan.
+Tempatkan elemen saat ini di posisi yang benar. Ulangi proses ini untuk setiap elemen dalam daftar.
+
+# Job Sheet 9
+Job Sheet 9 ini menjelaskan tentang Selection Sort adalah algoritma pengurutan sederhana yang bekerja dengan membagi daftar menjadi dua bagian: bagian terurut dan bagian tidak terurut. Algoritma ini secara iteratif memilih elemen terkecil (atau terbesar, tergantung pada urutan) dari bagian tidak terurut dan memindahkannya ke bagian terurut. Merge Sort adalah algoritma pengurutan berbasis divide-and-conquer yang membagi daftar menjadi dua bagian, mengurutkan kedua bagian secara rekursif, dan kemudian menggabungkan (merge) kedua bagian terurut tersebut untuk menghasilkan daftar yang terurut.
+
+# Job Sheet 10
+Job Sheet 10 ini menjelaskan tentang Shell Sort adalah algoritma pengurutan yang merupakan generalisasi dari Insertion Sort. Ini mengurutkan elemen dengan jarak yang lebih besar sebelum mengurutkan elemen-elemen dengan jarak yang lebih kecil. Tujuan utama dari Shell Sort adalah untuk mengurangi jumlah pergeseran yang diperlukan oleh Insertion Sort dengan menggunakan jarak atau gap. Quick Sort adalah algoritma pengurutan berbasis divide-and-conquer yang bekerja dengan memilih elemen sebagai pivot dan membagi daftar menjadi dua sub-daftar, satu dengan elemen yang lebih kecil dari pivot dan yang lainnya dengan elemen yang lebih besar dari pivot. Sub-daftar ini kemudian diurutkan secara rekursif.
+
+# Job Sheet 11
+Job Sheet 11 ini menjelaskan tentang Linear Search adalah algoritma pencarian yang sederhana yang bekerja dengan memeriksa setiap elemen dalam daftar satu per satu hingga elemen yang dicari ditemukan atau daftar selesai diurutkan.Binary Search adalah algoritma pencarian yang efisien untuk mencari elemen dalam daftar yang sudah terurut. Algoritma ini bekerja dengan membagi daftar menjadi dua bagian dan secara iteratif atau rekursif mencari bagian yang mengandung elemen yang dicari.
+
+# Job Sheet 12
+Job Sheet 12 ini menjelaskan tentang Pohon (tree) adalah struktur data hierarkis yang terdiri dari simpul-simpul (nodes), di mana satu simpul adalah akar (root) dan sisanya adalah simpul anak yang terhubung melalui cabang (edges). Setiap simpul dapat memiliki nol atau lebih simpul anak, dan tidak ada simpul yang memiliki lebih dari satu orang tua (parent).
+
+# Job Sheet 13
+Job Sheet 13 ini menjelaskan tentang Graph (graf) adalah struktur data yang digunakan untuk merepresentasikan hubungan antar objek. Graf terdiri dari simpul (nodes atau vertices) dan sisi (edges). Sisi menghubungkan pasangan simpul dan menunjukkan hubungan antara objek-objek tersebut.
