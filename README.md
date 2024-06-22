@@ -26,10 +26,26 @@
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
 # Job Sheet 1
+![js1](pict/js1.jpg)
 Job Sheet 1 menjelaskan bahwa struktur data merupakan cara penyimpanan, penyusunan, dan pengaturan data di dalam media penyimpanan komputer. Merupakan representasi fakta dunia nyata yang disimpan, direkam, atau direpresentasikan dalam bentuk tulisan, suara, gambar, sinyal atau simbol. Dalam pemrograman, struktur data berarti tata letak data yang berisi kolom-kolom data, baik itu kolom yang tampak oleh pengguna (user) atau pun kolom yang hanya digunakan untuk keperluan pemrograman yang tidak tampak oleh pengguna. Struktur data dapat dikategorikan menjadi tipe data sederhana tunggal, seperti Integer, real, boolean dan karakter, serta tipe data sederhana majemuk, seperti String (kumpulan data char). Struktur data yang standar yang biasanya digunakan dibidang informatika adalah List linier (Linked List), Multilist, Stack (Tumpukan), Queue (Antrian), Tree (Pohon), dan Graph (Graf)
 
 # Job Sheet 2
+![js2](pict/js2.jpg)
 Job Sheet 2 menjelaskan bahwa array adalah suatu kumpulan nilai yang bertipe data sama, dengan masing-masing elemen array diakses menggunakan indeks. Deklarasi array dilakukan dengan menuliskan tipe data, nama array, dan ukuran array. Pointer adalah variable yang berisi alamat memory sebagai nilainya, berbeda dengan variable biasa yang berisi nilai tertentu. Deklarasi pointer dilakukan dengan menambahkan tanda asterisk (*) pada tipe data yang akan dijadikan pointer. Structure adalah kumpulan variable yang bernama objek yang serumpun, dengan tipe-tipe yang berbeda. Deklarasi structure dilakukan dengan menuliskan tipe data dan nama variable, serta mengisi nilai dari setiap variable.
+
+Karakteristik Array:
+Homogenitas: Semua elemen dalam array harus memiliki tipe data yang sama.
+Akses Indeks: Elemen array diakses menggunakan indeks.
+Ukuran Tetap: Ukuran array ditentukan pada saat deklarasi dan tidak dapat diubah.
+
+Karakteristik Pointer:
+Referensi Memori: Menyimpan alamat memori dari variabel lain.
+Operasi Aritmetika: Pointers dapat digunakan dalam operasi aritmetika untuk navigasi melalui memori.
+Dereferensi: Mengakses nilai yang disimpan di alamat memori yang ditunjuk oleh pointer.
+Karakteristik Structure:
+Heterogenitas: Anggota struct bisa memiliki tipe data yang berbeda.
+Pengelompokan Data: Mengelompokkan data yang terkait dalam satu entitas.
+Akses Anggota: Anggota struct diakses menggunakan operator titik (.).
 
 # Job Sheet 3
 Job Sheet 3 menjelaskan bahwa single linked list merupakan sebuah data yang berupa simpul atau node beralamat yang saling bertaut. Setiap simpul bisa menyimpan data yang mana isinya bisa char, int, string atau tipe data lainnya. Sebuah linked list sederhana terdiri dari sebuah simpul special yang hanya memiliki alamat/pointer simpul ini dinamakan HEAD, dan sebuah simpul TAIL yang tidak menuju kemanapun. Penggunaan alokasi memori memungkinkan user untuk membuat tipe data dan struktur dengan ukuran dan panjang berapapun yang disesuaikan dengan kebutuhan di dalam program. Perintah sizeof digunakan untuk mendapatkan ukuran dari berbagai tipe data, variabel, ataupun struktur. Perintah malloc() digunakan untuk mengalokasikan memori.
