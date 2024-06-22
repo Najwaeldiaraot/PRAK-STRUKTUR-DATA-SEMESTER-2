@@ -45,6 +45,13 @@ Job Sheet 6 menjelaskan bahwa stack adalah sebuah kumpulan data dimana data yang
 
 # Job Sheet 7
 Job Sheet 7 menjelaskan tentang antrian (queue) dalam praktikum Struktur Data Teknik Informatika. Antrian adalah sebuah data structure yang berguna pada pemrograman. Antrian menggunakan prinsip FIFO (First-In-First-Out), dimana item yang mendapat giliran pertama adalah item yang pertama keluar. Antrian dapat menggunakan array atau linked list untuk implementasi. Antrian dapat digunakan untuk memecahkan permasalahan pemrograman, misalnya untuk menambah dan menghapus elemen dari antrian. Job Sheet 7 juga menjelaskan tentang queue dengan array dan queue dengan linked list. Pada queue dengan array, digunakan sejumlah array MAX untuk menyimpan data. Untuk queue dengan linked list, digunakan struct node untuk menyimpan data.
+FIFO (First In, First Out): Elemen pertama yang masuk akan menjadi elemen pertama yang keluar.
+Operasi Dasar:
+Enqueue: Menambahkan elemen ke akhir antrian.
+Dequeue: Menghapus elemen dari awal antrian.
+Peek/Front: Melihat elemen di awal antrian tanpa menghapusnya.
+IsEmpty: Memeriksa apakah antrian kosong.
+Size: Mendapatkan jumlah elemen dalam antrian
 
 # Job Sheet 8
 Job Sheet 8 ini menjelaskan tentang Bubble Sort adalah algoritma pengurutan sederhana yang bekerja dengan membandingkan elemen-elemen bersebelahan dalam daftar dan menukarnya jika mereka dalam urutan yang salah. Proses ini berulang hingga seluruh daftar terurut.Cara Kerja Mulai dari elemen pertama, bandingkan elemen saat ini dengan elemen berikutnya, Jika elemen saat ini lebih besar dari elemen berikutnya, tukar kedua elemen tersebut,Lanjutkan ke pasangan elemen berikutnya dan ulangi langkah 2. Setelah satu iterasi lengkap, elemen terbesar akan "menggelembung" ke posisi akhirnya. Ulangi proses ini untuk sisa elemen hingga tidak ada lagi elemen yang perlu ditukar.
